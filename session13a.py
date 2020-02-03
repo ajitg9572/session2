@@ -6,7 +6,6 @@ class Dish:
         self.description=description
         self.type=type
         self.quantity=0
-
     def showDetail(self):
         print("======={}========".format(self.name))
         print("price:{},description:{} ,type:{} and quantity:{}".format(self.price,self.description,self.type,self.quantity))

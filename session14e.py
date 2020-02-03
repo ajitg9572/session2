@@ -1,6 +1,6 @@
 class A:
 
-    a=10
+    a=15
 
     def __init__(self,a):
         print("A is constructed")
